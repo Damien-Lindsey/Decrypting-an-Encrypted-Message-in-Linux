@@ -2,27 +2,21 @@
 
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+After learning about cryptography and decryption in Google Cybersecurity certificate course, the objective of this lab project was to use Linux commands to break Caesars cipher, decrypt files, and reveal hidden messages.
 
-### Skills Learned
-[Bullet Points - Remove this afterwards]
+### Skills Learned/Used
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Use of 'ls' and 'ls -a' commands to list all files in current working directory
+- Use of 'cat' command to list contents of file
+- Use of 'cd' command to switch directories
+- Use of 'cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"' command to decrypt Caesar cipher
+- Use of 'openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute' command to decrypt encrypted file
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Linux
 
 ## Steps
-
 
 ![image](https://github.com/Damien-Lindsey/Decrypting-an-Encrypted-Message-in-Linux/assets/161356460/e089e523-9a2e-4363-b35c-bc34746d0970)
